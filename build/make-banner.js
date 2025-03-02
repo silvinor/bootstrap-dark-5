@@ -9,7 +9,7 @@ function getBanner() {
   return `/*!
  * Bootstrap-Dark-5 v${pkg.version} (${pkg.homepage})
  * Copyright ${year != 2021 ? '2021-' : ''}${year} ${pkg.author}
- * Licensed under MIT (https://github.com/vinorodrigues/bootstrap-dark-5/blob/main/LICENSE.md)
+ * Licensed under MIT (https://github.com/silvinor/bootstrap-dark-5/blob/main/LICENSE.md)
  */` + "\n\n";
 }
 

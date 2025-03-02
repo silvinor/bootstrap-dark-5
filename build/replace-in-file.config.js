@@ -7,11 +7,11 @@ const bs_ver = pkg.dependencies.bootstrap.replace(/[^\d.-]/g, '');
 module.exports = {
   files: 'dist/css/*.css',
   from: [
-    '(https://vinorodrigues.github.io/bootstrap-dark-5/)',
+    '(https://silvinor.github.io/bootstrap-dark-5/)',
     'Bootstrap v5.x.x'
   ],
   to: [
-    `v${bsd_ver} (https://vinorodrigues.github.io/bootstrap-dark-5/)`,
+    `v${bsd_ver} (https://silvinor.github.io/bootstrap-dark-5/)`,
     `Bootstrap v${bs_ver}`
   ]
 }

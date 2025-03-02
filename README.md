@@ -1,9 +1,9 @@
 # The Ancillary Guide to Dark Mode and Bootstrap 5
 **A continuation of the v4 Dark Mode POC, but this time for v5**
 
-> This is a follow up to [The Definitive Guide to Dark Mode and Bootstrap 4](http://vinorodrigues.github.io/bootstrap-dark) body of work, and pertains to [Bootstrap 5](https://getbootstrap.com) *([Github repo.](https://github.com/twbs/bootstrap))*.
+> This is a follow up to [The Definitive Guide to Dark Mode and Bootstrap 4](https://silvinor.github.io/bootstrap-dark) body of work, and pertains to [Bootstrap 5](https://getbootstrap.com) *([Github repo.](https://github.com/twbs/bootstrap))*.
 
-> If you're after the same work for [Bootstrap 4](https://getbootstrap.com/docs/4.5/) please visit the [vinorodrigues/bootstrap-dark](https://github.com/vinorodrigues/bootstrap-dark) repo.
+> If you're after the same work for [Bootstrap 4](https://getbootstrap.com/docs/4.5/) please visit the [silvinor/bootstrap-dark](https://github.com/silvinor/bootstrap-dark) repo.
 
 -----------------------------------------------------------------------------
 
@@ -21,7 +21,7 @@
 ## About
 
 This code will make little sense if you don't read
-[The Definitive Guide to Dark Mode and Bootstrap 4](http://vinorodrigues.github.io/bootstrap-dark) first.
+[The Definitive Guide to Dark Mode and Bootstrap 4](https://silvinor.github.io/bootstrap-dark) first.
 
 
 ## What do you get?
@@ -30,19 +30,19 @@ The code compiles the four methods *(and variants - **six in total**)* of the or
 
 ### Method 1
 
-<small>*([link to original](https://github.com/vinorodrigues/bootstrap-dark/blob/master/README.md#method-1))*</small>
+<small>*([link to original](https://github.com/silvinor/bootstrap-dark/blob/master/README.md#method-1))*</small>
 
   *  **`bootstrap-night`**: This is simply a dark bootstrap theme.  It can however be used with the Bootstrap core CSS to deliver a 2-file dark mode functionality.
 
 ### Method 2
 
-<small>*([link to original](https://github.com/vinorodrigues/bootstrap-dark/blob/master/README.md#method-2))*</small>
+<small>*([link to original](https://github.com/silvinor/bootstrap-dark/blob/master/README.md#method-2))*</small>
 
   * **`bootstrap-nightfall`**: This is simply the "color only" CSS of all the  components of Bootstrap core, but dark, and is intended to be used as an add-on.  It can also, with a simple media query, drive automatic dark mode switching.
 
 ### Method 3
 
-<small>*([link to original](https://github.com/vinorodrigues/bootstrap-dark/blob/master/README.md#method-3))*</small>
+<small>*([link to original](https://github.com/silvinor/bootstrap-dark/blob/master/README.md#method-3))*</small>
 
   * **`bootstrap-nightshade`**: This is a modification of the Bootstrap core and adds dark color CSS for all the components, but dark, nested in a `html.dark` class wrapper.  By itself it cannot offer dark mode switching, but add the included `darkmode.js` library and you have an interactive dark mode switching variant of Bootstrap with built in ***"toggle"*** button support.
 
@@ -50,7 +50,7 @@ The code compiles the four methods *(and variants - **six in total**)* of the or
 
 ### Method 4
 
-<small>*([link to original](https://github.com/vinorodrigues/bootstrap-dark/blob/master/README.md#method-4))*</small>
+<small>*([link to original](https://github.com/silvinor/bootstrap-dark/blob/master/README.md#method-4))*</small>
 
   * **`bootstrap-dark`**: This is the recommended method; one CSS with both light and dark themes, toggle-able only with the OS or browser `prefers-color-scheme` media query.
 
@@ -62,11 +62,11 @@ The code compiles the four methods *(and variants - **six in total**)* of the or
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | [Quick Start Guide](docs/bootstrap-night.md) | [Quick Start Guide](docs/bootstrap-nightfall.md) | [Quick Start Guide](docs/bootstrap-nightshade.md) | [Quick Start Guide](docs/bootstrap-blackbox.md) | [Quick Start Guide](docs/bootstrap-dark.md) | [Quick Start Guide](docs/bootstrap-unlit.md) |
 | | | [`darkmode.js` Reference](docs/darkmode.js.md) | [`darkmode.js` Reference](docs/darkmode.js.md) | | |
-| [See Example](https://vinorodrigues.github.io/bootstrap-dark-5/examples/cheatsheet-night.html) | | [See Example](https://vinorodrigues.github.io/bootstrap-dark-5/examples/cheatsheet-nightshade.html) | | [See Example](https://vinorodrigues.github.io/bootstrap-dark-5/examples/cheatsheet-dark.html) | |
+| [See Example](https://silvinor.github.io/bootstrap-dark-5/examples/cheatsheet-night.html) | | [See Example](https://silvinor.github.io/bootstrap-dark-5/examples/cheatsheet-nightshade.html) | | [See Example](https://silvinor.github.io/bootstrap-dark-5/examples/cheatsheet-dark.html) | |
 
 ## The Proof is in the Pudding
 
-Some of the test pages have been set up at [vinorodrigues.github.io/bootstrap-dark-5](https://vinorodrigues.github.io/bootstrap-dark-5/)
+Some of the test pages have been set up at [silvinor.github.io/bootstrap-dark-5](https://silvinor.github.io/bootstrap-dark-5/)
 
 
 ## Can you use this?
@@ -78,7 +78,7 @@ Yes.
 If you're a theme builder or want to use its principles in your own project you'll need to have
 [Git](https://help.github.com/articles/set-up-git) and [Node](https://nodejs.org/) installed.
 
-1. Fork or download the repository: `git clone https://github.com/vinorodrigues/bootstrap-dark-5.git`
+1. Fork or download the repository: `git clone https://github.com/silvinor/bootstrap-dark-5.git`
 2. Install Node dependencies: `npm install`  *(See note below.)*
 3. Modify `_variables.scss` and `_variables-alt.scss` in the `scss` sub-folder.
 4. Run `npm run build` to build your theme.
@@ -92,7 +92,7 @@ npm i -g  autoprefixer  documentation browser-sync  clean-css-cli  cross-env  es
 
 #### Note 1:
 
-This code is just a rehash of Bootstrap 5 core code to add "dark mode" functionality and is declared as a "Proof of Concept" *(PoC)* - that means it's not intended as a production source, but merely an exercise to prove that dark-mode is attainable via various methods, i.e. it is an educative piece.  It also means that it's author *(Vino Rodrigues)* is not compelled to support it.
+This code is just a rehash of Bootstrap 5 core code to add "dark mode" functionality and is declared as a "Proof of Concept" *(PoC)* - that means it's not intended as a production source, but merely an exercise to prove that dark-mode is attainable via various methods, i.e. it is an educative piece.  It also means that it's author *(Silvino Rodrigues)* is not compelled to support it.
 
 #### Note 2:
 
@@ -141,14 +141,14 @@ You can access the theme CSS file from the GitHub release:
     * [`https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-night.css`](https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-night.css)
   * Also, read the [Quick Start Guide](docs/bootstrap-night.md).
 
-* Source etc. are [here](https://cdn.jsdelivr.net/gh/vinorodrigues/bootstrap-dark-5/), but I recommend using [GitHub](https://github.com/vinorodrigues/bootstrap-dark-5).
+* Source etc. are [here](https://cdn.jsdelivr.net/gh/silvinor/bootstrap-dark-5/), but I recommend using [GitHub](https://github.com/silvinor/bootstrap-dark-5).
 
 
 ## Further Reading
 
 **Must reads** for all developers wanting to write for dark mode:
 
-* ...obviously, the original content: [The Definitive Guide to Dark Mode and Bootstrap 4](http://vinorodrigues.github.io/bootstrap-dark#readme)
+* ...obviously, the original content: [The Definitive Guide to Dark Mode and Bootstrap 4](https://silvinor.github.io/bootstrap-dark#readme)
 
 * web.dev, Thomas Steiner ([@tomayac](https://github.com/tomayac)), Jun 27, 2019 *(updated Jun 9, 2020)*, "[prefers-color-scheme: Hello darkness, my old friend](https://web.dev/prefers-color-scheme/)"
 
@@ -156,12 +156,12 @@ You can access the theme CSS file from the GitHub release:
 
 * CSS-TRICKS, Adhuham, Sep 9, 2020 "[A Complete Guide to Dark Mode on the Web](https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/)"
 
-* My bit about [images and other considerations](https://vinorodrigues.github.io/bootstrap-dark/readme.html#but-thats-not-enough) in my "[.. Definitive Guide ..](http://vinorodrigues.github.io/bootstrap-dark)" piece.
+* My bit about [images and other considerations](https://silvinor.github.io/bootstrap-dark/readme.html#but-thats-not-enough) in my "[.. Definitive Guide ..](https://silvinor.github.io/bootstrap-dark)" piece.
 
 
 ## Feedback
 
-If you have [useful feedback](https://alearningaday.blog/2020/08/04/useful-feedback/) drop me an "Issue" on the [GitHub Issues](https://github.com/vinorodrigues/bootstrap-dark-5/issues) page.
+If you have [useful feedback](https://alearningaday.blog/2020/08/04/useful-feedback/) drop me an "Issue" on the [GitHub Issues](https://github.com/silvinor/bootstrap-dark-5/issues) page.
 
 
 ---

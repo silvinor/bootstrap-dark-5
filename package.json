@@ -52,15 +52,15 @@
     "bump-minor": "npm version minor",
     "bump-patch": "npm version patch"
   },
-  "author": "Vino Rodrigues",
-  "homepage": "https://vinorodrigues.github.io/bootstrap-dark-5/",
+  "author": "Silvino Rodrigues",
+  "homepage": "https://silvinor.github.io/bootstrap-dark-5/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vinorodrigues/bootstrap-dark-5.git"
+    "url": "git+https://github.com/silvinor/bootstrap-dark-5.git"
   },
   "bugs": {
-    "url": "https://github.com/vinorodrigues/bootstrap-dark-5/issues"
+    "url": "https://github.com/silvinor/bootstrap-dark-5/issues"
   },
   "style": "dist/css/bootstrap-dark.css",
   "sass": "scss/bootstrap-dark.scss",

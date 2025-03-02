@@ -36,7 +36,7 @@
  * ```
  *
  * @module DarkMode
- * @_author Vino Rodrigues
+ * @_author Silvino Rodrigues
  */
 class DarkMode {
   /** ***const*** -- Name of the cookie or localStorage->name when saving */
